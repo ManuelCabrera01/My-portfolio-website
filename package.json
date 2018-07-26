@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "portfolio website",
   "main": "index.js",
+  "homepage": "https://ManuelCabrera01.github.io/My-portfolio-website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/style/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/style/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/ManuelCabrera01/My-portfolio-website#readme",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
