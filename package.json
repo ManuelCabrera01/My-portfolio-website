@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelCabrera01/My-portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelCabrera01/My-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/ManuelCabrera01/My-portfolio-website#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
